@@ -275,3 +275,34 @@ header{
 
 }
 
+.btnn{
+    right: -520px;
+    width: 500px;
+    height: 40px;
+    font-weight: 500;
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .3s ease;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: antiquewhite;
+    height: 50px;
+    width: 100%;
+    padding: 0 10px 0 45px;
+    border: none;
+    outline: none;
+    transition: .2s ease;
+    align-items: center;
+}
+
+.btnn:hover{
+    background:  rgba(255, 255, 255, 0.15);
+    color:rgb(161, 55, 55);
+}
+
+.btnn a{
+    text-decoration: none;
+    color: white;
+}
